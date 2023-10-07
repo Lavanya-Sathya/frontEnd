@@ -1,0 +1,68 @@
+body::before{
+    background: url('../image/background.jpg') no-repeat center center/cover;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+#signIn{
+    margin-top:12em;
+}
+.nav-link, #dropdown-btn{
+    color:rgb(11, 2, 24);
+    font-size: 1.2em;
+}
+.nav-link:hover{
+    color:rgb(121, 37, 37);
+   
+}
+#append{
+    margin-right:6em;
+}
+#start-btn{
+    margin-left:6em;
+}
+@media only screen and (max-width:800px){
+    #start-btn{
+        margin-left: 0.3em;
+        font-size: 1em;
+    }
+    #signIn{
+        margin-top:10em;
+    }
+    .nav-link, #dropdown-btn{
+        padding:0.25rem;
+        font-size: 0.8em;
+        font-weight: 600;
+        color:rgb(129, 128, 129);
+    }
+   
+}
+@media only screen and (min-width:800px) and (max-width:1000px){
+    #append{
+        margin-right:40px;
+        font-size: 0.9em;
+
+    }
+    #start-btn{
+        margin-left:40px;
+        font-size: 0.8em;
+    }
+    .nav-link, #dropdown-btn{
+        color:rgb(11, 2, 24);
+        font-size: 0.9em;
+    }
+   
+}
+@media only screen and (min-width:1000px) and (max-width:1200px){
+    #append{
+        margin-right:4em;
+
+    }
+    #start-btn{
+        margin-left:4em;
+    }
+}
