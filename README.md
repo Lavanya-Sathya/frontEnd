@@ -4,13 +4,13 @@ This repository is created to demonstrate HTML, CSS, and bootstrap skills. Each 
 Currently, there are 3 projects that is developed as part of the internship program.
 
 ### Online Meals 
-[Click here to visit Online Meals](https://lavanya-sathya.github.io/frontEnd/OnlineMeals/)
+[Click here](https://lavanya-sathya.github.io/frontEnd/OnlineMeals/) to visit Online Meals.
 
 ### Login 
-[Click here to visit LogIn](https://lavanya-sathya.github.io/frontEnd/logIn/)
+[Click here](https://lavanya-sathya.github.io/frontEnd/logIn/) to visit LogIn.
 
 ### Tribute 
-[[Click here to visit Tribute](https://lavanya-sathya.github.io/frontEnd/Tribute/)
+[Click here](https://lavanya-sathya.github.io/frontEnd/Tribute/) to visit Tribute.
 
 
 
