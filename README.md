@@ -9,8 +9,7 @@ Currently, there are 3 projects that is developed as part of the internship prog
 ### Login 
 [Click here](https://lavanya-sathya.github.io/frontEnd/logIn/) to visit LogIn.
 
-### Tribute 
-[Click here](https://lavanya-sathya.github.io/frontEnd/Tribute/) to visit Tribute.
+
 
 
 
