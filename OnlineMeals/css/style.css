@@ -1,0 +1,207 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar::before{
+    content:"";
+    background-color:black ;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity:0.5;
+
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#logo{
+    margin:10px 20px;
+}
+#logo img{
+    margin: 2px 4px;
+    width: 70px;
+    height: 46px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    font-family:cursive;
+}
+#navbar ul li{
+    list-style: none;
+    padding:10px;
+    margin:10px;
+   
+}
+#navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li a:hover{
+    color:#E05759;
+}
+
+/* home section */
+
+#home{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height:395px;
+    justify-content: center;
+    align-items: center;
+/*     
+    margin: 20px;
+    font-size: 24px;
+    color: white; */
+
+}
+#home::before{
+    content:"";
+    background: url('../img/dp.jpg') no-repeat center center/cover;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:465px;
+    width:100%;
+    z-index:-1;
+    opacity: 0.5;
+    
+
+}
+#home p{
+    text-align: center;
+    font-size:1.3rem;
+    font-family:cursive;
+}
+/* services seection */
+#services{
+    display: flex;
+    margin: 34px;
+}
+#services .box{
+    border:2px solid brown;
+    /* height: 512px;
+    width: 453px; */
+    padding:30px;
+    margin:3px 6px;
+    border-radius: 23px;
+    background-color: #edecec;;
+}
+#services .box img{
+    height: 160px;
+    /* width:100px; */
+    display: block;
+    margin: auto;
+}
+#services .box p{
+    font-family:cursive;
+    text-align: center;
+}
+/* client section */
+#client-section::before{
+    content:"";
+    background: url('../img/kebab_grill.jpg') no-repeat center center/cover;
+    position:absolute;
+    height: 261px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+/* #client-section{
+    height:280px; 
+} */
+
+.client{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.client img{
+    height:130px;
+}
+.client-items{
+    padding:20px;
+}
+/* contact section */
+#contact{
+    height:550px;
+}
+
+#contact-box::before{
+    content: "";
+    background: rgb(14, 13, 13);
+    position: absolute;
+    height: 480px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    padding-left: 30px;
+}
+label,#contact-box input, #contact-box textarea{
+    width:100%;
+    padding: 10px;
+    font-family:cursive ;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+/* footer section */
+footer{
+    background-color: black;
+    color: #edecec;
+    font-family:cursive ;
+    padding: 20px;
+    margin: -27px 0px 0px 0px;
+    
+}
+/* utility class */
+.h-primary{
+    font-size: 3.0rem;
+    padding:12px;
+    margin-bottom:15px;
+    text-align: center;
+    font-family:cursive;
+
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding:12px;
+    font-family:cursive;
+
+}
+.btn{
+    padding:6px 20px;
+    border:1px solid black;
+    background-color:brown;
+    color:white;
+    margin:17px 17px 17px 30px;
+    border-radius: 4px;
+    font-family:cursive;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: #E05759;
+}
+.center{
+    text-align: center;
+}
