@@ -1,7 +1,7 @@
 # frontEnd Projects
 
 This repository is created to demonstrate HTML, CSS, and bootstrap skills. Each folder in this repository consists of standalone projects.
-Currently, there are 3 projects that is developed as part of the internship program.
+Currently, there are 2 projects that is developed as part of the internship program.
 
 ### Online Meals 
 [Click here](https://lavanya-sathya.github.io/frontEnd/OnlineMeals/) to visit Online Meals.
@@ -9,8 +9,7 @@ Currently, there are 3 projects that is developed as part of the internship prog
 ### Login 
 [Click here](https://lavanya-sathya.github.io/frontEnd/logIn/) to visit LogIn.
 
-### Tribute 
-[Click here](https://lavanya-sathya.github.io/frontEnd/Tribute/) to visit Tribute.
+
 
 
 
