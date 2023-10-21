@@ -19,13 +19,13 @@
             <input type="text" placeholder="Enter your Name" id="name" onkeyup="validateName()">
             <span id="errorName" class="error"></span>
 
-            <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()">
+            <input type="email" placeholder="Enter your email" id="email" autocomplete="new-email" onkeyup="validateEmail()">
             <span id="errorEmail" class="error"></span>
 
-            <input type="password" placeholder="Enter your password" id="pass" onkeyup="validatePassword()">
+            <input type="password" placeholder="Enter your password" autocomplete="new-password" id="pass" onkeyup="validatePassword()">
             <span id="errorPass" class="error"></span>
 
-            <input type="password" placeholder="Confirm password" id="repass" onkeyup="validateCon()">
+            <input type="password" placeholder="Confirm password" autocomplete="new-password" id="repass" onkeyup="validateCon()">
             <span id="errorRepass" class="error"></span>
 
             <button class="btn btn-log" id="login">Sign Up</button>

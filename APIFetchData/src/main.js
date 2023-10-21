@@ -165,9 +165,16 @@ function validateFormLogin(){
         return false;
     }
     else{
-        const data = JSON.parse(localStorage.getItem("dataUser"));
-        if(emailLogin.value === data[0].username && passLogin.value=== data[0].password){
+        const data = JSON.parse(localStorage.getItem("dataUser")) || [];
+        if(data.length === 0){
+            emailLogin.value = "";
+            passLogin.value = "";
+            alert("Please sign Up before login")
+            return false;
+        }
+        else if(emailLogin.value === data[0].username && passLogin.value=== data[0].password){
             alert("LoggedIn Successfully");
+            return true;
 
         }
         else{

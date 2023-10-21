@@ -15,10 +15,10 @@
             LOGIN
         </h2>
         <form onsubmit="return validateFormLogin()" action="fetch.html" method="get" class="login" id="loginForm" >
-            <input type="email" placeholder="Enter your email" onkeyup="validateEmailLogin()" id="emailLogin">
+            <input type="email" placeholder="Enter your email"  autocomplete="new-email" onkeyup="validateEmailLogin()" id="emailLogin">
             <span id="emailErrorLogin" class="error"></span>
 
-            <input type="password" placeholder="Enter your password" onkeyup="validatePasswordLogin()" id="passLogin">
+            <input type="password" placeholder="Enter your password" autocomplete="new-password" onkeyup="validatePasswordLogin()" id="passLogin">
             <span id="passErrorLogin" class="error"></span>
 
             <button class="btn btn-log" id="login" type="submit">Log in</button>
