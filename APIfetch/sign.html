@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>
+            SIGN UP
+        </h2>
+        <form onsubmit="return validateFormSign()" action="login.html" method="get" class="login" id="formSignIn">
+            <input type="text" placeholder="Enter your Name" id="name" onkeyup="validateName()">
+            <span id="errorName" class="error"></span>
+
+            <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()">
+            <span id="errorEmail" class="error"></span>
+
+            <input type="password" placeholder="Enter your password" id="pass" onkeyup="validatePassword()">
+            <span id="errorPass" class="error"></span>
+
+            <input type="password" placeholder="Confirm password" id="repass" onkeyup="validateCon()">
+            <span id="errorRepass" class="error"></span>
+
+            <button class="btn btn-log" id="login">Sign Up</button>
+            <span id="submitErrorSignUp" class="error"></span>
+
+            <button class="btn btn-back"><a href="index.html">Back</a></button>
+            <p id="user">Already have account click here to <a href="login.html">Login</a></p>
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <div>
+            <p><strong>Contact Us</strong></p>
+            <p>Phone: (+91) XXXXX-XXXXX</p>
+            <p>Email: sathyalavanya5@gmail.com</p>
+        </div>
+        <p id="copyright">&copy; 2023. All Rights Reserved</p>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+
+</html>
