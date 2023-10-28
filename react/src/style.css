@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.logo {
+  border-radius: 2rem;
+  width: 4rem;
+}
+.card {
+  height: 22rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
