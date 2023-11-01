@@ -9,6 +9,9 @@ Currently, there are 2 projects that is developed as part of the internship prog
 ### Online Meals 
 [Click here](https://frontend-js.netlify.app/onlinemeals/) to visit Online Meals.
 
+### React static app
+[Click here](https://frontend-js-react.netlify.app/) to visit Online Meals.
+
 ### Login 
 [Click here](https://frontend-js.netlify.app/login/) to visit LogIn.
 
