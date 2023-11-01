@@ -4,7 +4,7 @@ This repository is created to demonstrate HTML, CSS, and bootstrap skills. Each 
 Currently, there are 4 projects that is developed as part of the internship program.
 
 ### APIFetchData
-[Click here](https://frontend-js.netlify.app/apifetchdata/) to visit API Fetch.
+<a href="https://frontend-js.netlify.app/apifetchdata/" target="_blank" >Click here</a> to visit API Fetch.
 
 ### Online Meals 
 [Click here](https://frontend-js.netlify.app/onlinemeals/) to visit Online Meals.
