@@ -1,16 +1,19 @@
 # frontEnd Projects
 
 This repository is created to demonstrate HTML, CSS, and bootstrap skills. Each folder in this repository consists of standalone projects.
-Currently, there are 2 projects that is developed as part of the internship program.
+Currently, there are 4 projects that is developed as part of the internship program.
 
 ### APIFetchData
-[Click here](https://lavanya-sathya.github.io/frontEnd/APIFetchData/) to visit API Fetch.
+<a href="https://frontend-js.netlify.app/apifetchdata/" target="_blank">Click here</a> to visit API Fetch.
 
 ### Online Meals 
-[Click here](https://lavanya-sathya.github.io/frontEnd/OnlineMeals/) to visit Online Meals.
+[Click here](https://frontend-js.netlify.app/onlinemeals/) to visit Online Meals.
+
+### React static app
+[Click here](https://frontend-js-react.netlify.app/) to visit Online Meals.
 
 ### Login 
-[Click here](https://lavanya-sathya.github.io/frontEnd/logIn/) to visit LogIn.
+[Click here](https://frontend-js.netlify.app/login/) to visit LogIn.
 
 
 
