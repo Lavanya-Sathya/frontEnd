@@ -4,13 +4,13 @@ This repository is created to demonstrate HTML, CSS, and bootstrap skills. Each 
 Currently, there are 2 projects that is developed as part of the internship program.
 
 ### APIFetchData
-[Click here](https://lavanya-sathya.github.io/frontEnd/APIFetchData/) to visit API Fetch.
+[Click here](https://frontend-js.netlify.app/apifetchdata/) to visit API Fetch.
 
 ### Online Meals 
-[Click here](https://lavanya-sathya.github.io/frontEnd/OnlineMeals/) to visit Online Meals.
+[Click here](https://frontend-js.netlify.app/onlinemeals/) to visit Online Meals.
 
 ### Login 
-[Click here](https://lavanya-sathya.github.io/frontEnd/logIn/) to visit LogIn.
+[Click here](https://frontend-js.netlify.app/login/) to visit LogIn.
 
 
 
