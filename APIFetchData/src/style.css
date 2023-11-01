@@ -167,12 +167,10 @@ input:focus {
   margin: 5rem 10rem;
   line-height: 1.6;
   font-size: 1rem;
-  border: 2px solid red;
 }
 .nav-container > h2 {
   text-align: center;
   font-size: 2rem;
-  border: 2px solid red;
 }
 @media screen and (max-width: 900px) {
   .nav-container {
