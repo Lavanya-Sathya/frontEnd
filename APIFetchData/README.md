@@ -1,6 +1,6 @@
 # API Fetch Data
 
-A simple web application that shows how fetch the data from an API display allows users to manage their tasks after signing up and logging in. User data are stored in local storage.
+A simple web application that shows how fetch the data from an API and display,  allows users to manage their tasks after signing up and logging in. User data are stored in local storage.
 ### API Link
 https://jsonplaceholder.typicode.com/comments
 ## Features
