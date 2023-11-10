@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: linear-gradient(25deg, #e5989b, #ffb4a2, #ffcdb2, #b5838d);
+  width: 100%;
+  min-height: 120%;
+  height: auto;
+  z-index: -1;
+  margin-bottom: 40vh;
+}
+
+.formInput {
+  background-color: #6d6875;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 55%;
+  margin: auto;
+  /* margin-bottom: 30vh; */
+}
+@media screen and (max-width: 770px) {
+  .formInput {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formInput {
+    width: 87%;
+  }
+}
+.closePopup {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+.btnSubmit {
+  background-color: #e5989b;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 1rem;
+}
+.btnSubmit:hover {
+  background-color: #ffcdb2;
+  color: white;
+}
+.error {
+  font-size: 0.8rem;
+  margin: 0.2rem;
+  color: rgb(233, 111, 111);
+}
+.searchText {
+  position: relative;
+}
+#search {
+  background-color: white;
+  padding: 0.5rem 2.2rem;
+  border-radius: 1rem;
+  color: rgb(49, 49, 92);
+  border: none;
+}
+.bi-search {
+  position: absolute;
+  bottom: 0.211rem;
+  padding: 0.3rem;
+  z-index: 1;
+}
+
+.tableForm {
+  /* background-color: #6d6875; */
+  margin: auto;
+  color: rgb(49, 49, 92);
+}
+thead {
+  border-bottom: 3px solid #6d6875;
+  padding: 100px;
+  margin: 2rem;
+}
+thead > tr > th,
+tbody > tr > td {
+  padding: 0.5rem 4rem;
+}
+
+@media screen and (max-width: 780px) {
+  thead > tr > th,
+  tbody > tr > td {
+    padding: 0.5rem 1.5rem;
+  }
+  thead {
+    padding: 40px;
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  thead > tr > th,
+  tbody > tr > td {
+    padding: 0.2rem;
+    font-family: 0.6rem;
+  }
+}
+tbody > tr:hover {
+  background-color: #b5838d;
+}
+.EditBtn,
+.DangerBtn,
+.createBtn {
+  border: none;
+  margin-right: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+.createBtn {
+  background-color: rgb(50, 145, 39);
+  padding: 0.6rem 3rem;
+}
+.createBtn:hover {
+  background-color: rgb(140, 206, 133);
+}
+.EditBtn {
+  background-color: rgb(13, 13, 80);
+  margin-bottom: 0.2rem;
+}
+.DangerBtn {
+  background-color: rgb(145, 12, 12);
+}
+.EditBtn:hover {
+  background-color: rgb(81, 81, 126);
+}
+.DangerBtn:hover {
+  background-color: rgb(179, 106, 106);
+}
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.editPopup {
+  background-color: rgb(49, 49, 92);
+  padding: 3rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 10rem;
+  left: 30%;
+  z-index: 2;
+}
+input {
+  background-color: rgb(49, 49, 92);
+  border: none;
+  border-bottom: 2px solid rgb(180, 170, 170);
+  color: white;
+}
+input:focus {
+  outline: none;
+}
