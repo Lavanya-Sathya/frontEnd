@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "JS",
+    "share": 0.64
+  },
+  {
+    "kind": "HTML/CSS",
+    "share": 0.56
+  },
+  {
+    "kind": "Python",
+    "share": 0.48
+  },
+  {
+    "kind": "SQL",
+    "share": 0.47
+  },
+  {
+    "kind": "Java",
+    "share": 0.35
+  },
+  {
+    "kind": "C#",
+    "share": 0.27
+  }
+]
